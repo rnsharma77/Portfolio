@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rudra Narayan Sharma — Frontend Developer & UI/UX Designer</title>
+  <meta name="description" content="Portfolio of Rudra Narayan Sharma — frontend development, React, UI/UX design." />
+  <meta name="author" content="Rudra Narayan Sharma" />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+  <div class="bg-gradient"></div>
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">RN<span>.</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </div>
+    <div class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="hero-badge"><span class="badge-dot"></span>Available for opportunities</div>
+          <h1 class="hero-name"><span class="gradient-text">Rudra Narayan</span><br>Sharma</h1>
+          <div class="hero-role"><span id="typed-text" class="typed-word"></span></div>
+          <p class="hero-desc">A passionate Computer Science Engineering student at Chandigarh University, crafting responsive, user-friendly experiences using HTML, CSS, JavaScript, Python, and React.</p>
+          <div class="hero-buttons">
+            <a href="Resume.pdf" class="btn-primary" download><i class="fa-solid fa-download"></i> Download CV</a>
+            <a href="#contact" class="btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Projects Built</span></div>
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">Internships</span></div>
+            <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Certifications</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="float-card float-card-1"><div class="float-card-icon">⚛️</div><div class="float-card-val">React</div><div class="float-card-sub">Frontend Expert</div></div>
+          <div class="hero-image-border"></div>
+          <div class="hero-image-wrap"><img src="image/man3-img.png" alt="Rudra Narayan Sharma" /></div>
+          <div class="float-card float-card-2"><div class="float-card-icon">🎨</div><div class="float-card-val">UI/UX</div><div class="float-card-sub">Figma · Adobe XD</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint"><span>Scroll</span><div class="hero-scroll-line"></div></div>
+  </section>
+
+  <!-- ABOUT -->
+
+
+  <!-- ===== ABOUT ME ===== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        
+          <!-- currently learning card -->
+          <div class="about-learning-card">
+            <div class="about-learning-top">
+              <span class="about-learning-dot"></span>
+              <span class="about-learning-label">Currently Learning</span>
+            </div>
+            <div class="about-learning-items">
+              <span class="about-learning-pill">Next.js</span>
+              <span class="about-learning-pill">TypeScript</span>
+              <span class="about-learning-pill">Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: content -->
+        <div class="about-content">
+          <div class="section-label reveal">Who I Am</div>
+          <h2 class="section-title reveal">
+            Passionate About <span class="gradient-text">Building Things</span> That Matter
+          </h2>
+
+          <p class="about-para reveal">
+            Hey! I'm <strong>Rudra Narayan Sharma</strong>, a Computer Science Engineering student at <strong>Chandigarh University</strong> (2023–2027), originally from <strong>Madhubani, Bihar</strong>. I grew up curious about how things work — and that curiosity eventually led me to code.
+          </p>
+          <p class="about-para reveal reveal-delay-1">
+            I specialize in <strong>frontend development and UI/UX design</strong>, with a genuine love for turning ideas into clean, responsive interfaces. Whether it's building a wellness reminder app in React or designing NLP-powered chatbots, I bring both technical skill and creative thinking to every project.
+          </p>
+          <p class="about-para reveal reveal-delay-2">
+            Over the past year I've completed <strong>3 internships</strong> — at EduNet Foundation working on AI/NLP, at Motion Cut boosting frontend performance by 40%, and a governance-focused social internship at Chandigarh University. Each experience has sharpened my ability to solve real problems under real constraints.
+          </p>
+          <p class="about-para reveal reveal-delay-3">
+            Outside of coding, I'm drawn to design systems, open-source tools, and learning whatever is next. Right now I'm actively expanding into <strong>Next.js, TypeScript, and Docker</strong> to become a more well-rounded developer.
+          </p>
+
+          <!-- Traits -->
+          <div class="about-traits reveal reveal-delay-4">
+            <div class="about-trait">
+              <div class="about-trait-icon">🚀</div>
+              <div>
+                <div class="about-trait-title">Fast Learner</div>
+                <div class="about-trait-sub">Picks up new tools and frameworks quickly</div>
+              </div>
+            </div>
+            <div class="about-trait">
+              <div class="about-trait-icon">🎯</div>
+              <div>
+                <div class="about-trait-title">Detail Oriented</div>
+                <div class="about-trait-sub">Every pixel and interaction matters</div>
+              </div>
+            </div>
+            <div class="about-trait">
+              <div class="about-trait-icon">🤝</div>
+              <div>
+                <div class="about-trait-title">Team Player</div>
+                <div class="about-trait-sub">Collaborative across design and engineering</div>
+              </div>
+            </div>
+            <div class="about-trait">
+              <div class="about-trait-icon">💡</div>
+              <div>
+                <div class="about-trait-title">Problem Solver</div>
+                <div class="about-trait-sub">Breaks complex challenges into simple steps</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-actions reveal reveal-delay-5">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       SKILLS — Tilt-reactive Glass Cards + Live Radar Chart
+  ================================================================ -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+
+      <div class="sk3-header">
+        <div class="section-label reveal">Expertise</div>
+        <h2 class="section-title reveal">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+        <p class="sk3-subtitle reveal">Move your cursor over any card for a tilt effect. Click a tab to filter by category.</p>
+      </div>
+
+      <div class="sk3-layout">
+
+        <!-- LEFT: animated radar chart -->
+        <div class="sk3-radar-wrap reveal">
+          <canvas id="radarCanvas" width="320" height="320" aria-label="Skill radar chart"></canvas>
+          <div class="sk3-radar-labels">
+            <span class="sk3-rl" style="color:#00d4ff">Frontend<br><small>87%</small></span>
+            <span class="sk3-rl" style="color:#7c3aed">Design<br><small>69%</small></span>
+            <span class="sk3-rl" style="color:#f59e0b">Backend<br><small>70%</small></span>
+            <span class="sk3-rl" style="color:#10b981">Tools<br><small>75%</small></span>
+            <span class="sk3-rl" style="color:#e85d9e">Software<br><small>72%</small></span>
+          </div>
+          <div class="sk3-radar-title">Skill Overview</div>
+        </div>
+
+        <!-- RIGHT: tabs + tilt cards -->
+        <div class="sk3-right">
+
+          <div class="sk3-tabs reveal">
+            <button class="sk3-tab active" data-cat="all">All</button>
+            <button class="sk3-tab" data-cat="frontend">Frontend</button>
+            <button class="sk3-tab" data-cat="design">Design</button>
+            <button class="sk3-tab" data-cat="backend">Backend</button>
+            <button class="sk3-tab" data-cat="tools">Tools</button>
+            <button class="sk3-tab" data-cat="software">Software Skills</button>
+          </div>
+
+          <div class="sk3-grid" id="sk3Grid">
+
+            <!-- FRONTEND -->
+            <div class="sk3-card reveal"              data-cat="frontend" data-color="#00d4ff" data-pct="95"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🌐</span><span class="sk3-name">HTML</span><span class="sk3-pct">95%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#00d4ff" data-pct="95"></div></div><div class="sk3-pills"><span>Semantic</span><span>SEO</span><span>A11y</span></div></div>
+            <div class="sk3-card reveal reveal-delay-1" data-cat="frontend" data-color="#00d4ff" data-pct="90"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🎨</span><span class="sk3-name">CSS</span><span class="sk3-pct">90%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#00d4ff" data-pct="90"></div></div><div class="sk3-pills"><span>Grid</span><span>Flexbox</span><span>Animations</span></div></div>
+            <div class="sk3-card reveal reveal-delay-2" data-cat="frontend" data-color="#00d4ff" data-pct="85"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">⚡</span><span class="sk3-name">JavaScript</span><span class="sk3-pct">85%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#00d4ff" data-pct="85"></div></div><div class="sk3-pills"><span>ES6+</span><span>DOM</span><span>Async</span></div></div>
+            <div class="sk3-card reveal reveal-delay-3" data-cat="frontend" data-color="#00d4ff" data-pct="80"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">⚛️</span><span class="sk3-name">React</span><span class="sk3-pct">80%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#00d4ff" data-pct="80"></div></div><div class="sk3-pills"><span>Hooks</span><span>State</span><span>Components</span></div></div>
+
+            <!-- DESIGN -->
+            <div class="sk3-card reveal reveal-delay-1" data-cat="design" data-color="#7c3aed" data-pct="78"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🖌️</span><span class="sk3-name">Figma</span><span class="sk3-pct">78%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#7c3aed" data-pct="78"></div></div><div class="sk3-pills"><span>Prototypes</span><span>Components</span><span>Auto Layout</span></div></div>
+            <div class="sk3-card reveal reveal-delay-2" data-cat="design" data-color="#7c3aed" data-pct="70"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🎭</span><span class="sk3-name">Adobe XD</span><span class="sk3-pct">70%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#7c3aed" data-pct="70"></div></div><div class="sk3-pills"><span>Wireframes</span><span>Flows</span><span>Assets</span></div></div>
+            <div class="sk3-card reveal reveal-delay-3" data-cat="design" data-color="#7c3aed" data-pct="60"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">✏️</span><span class="sk3-name">Sketch</span><span class="sk3-pct">60%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#7c3aed" data-pct="60"></div></div><div class="sk3-pills"><span>UI Kits</span><span>Symbols</span></div></div>
+
+            <!-- BACKEND -->
+            <div class="sk3-card reveal reveal-delay-1" data-cat="backend" data-color="#f59e0b" data-pct="75"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🐍</span><span class="sk3-name">Python</span><span class="sk3-pct">75%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#f59e0b" data-pct="75"></div></div><div class="sk3-pills"><span>NLP</span><span>Scripts</span><span>Flask</span></div></div>
+            <div class="sk3-card reveal reveal-delay-2" data-cat="backend" data-color="#f59e0b" data-pct="65"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🟢</span><span class="sk3-name">Node.js</span><span class="sk3-pct">65%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#f59e0b" data-pct="65"></div></div><div class="sk3-pills"><span>Express</span><span>REST</span><span>NPM</span></div></div>
+
+            <!-- TOOLS -->
+            <div class="sk3-card reveal reveal-delay-1" data-cat="tools" data-color="#10b981" data-pct="85"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🌿</span><span class="sk3-name">Git</span><span class="sk3-pct">85%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#10b981" data-pct="85"></div></div><div class="sk3-pills"><span>Branching</span><span>Merging</span><span>CI</span></div></div>
+            <div class="sk3-card reveal reveal-delay-2" data-cat="tools" data-color="#10b981" data-pct="82"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🐙</span><span class="sk3-name">GitHub</span><span class="sk3-pct">82%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#10b981" data-pct="82"></div></div><div class="sk3-pills"><span>PRs</span><span>Actions</span><span>Pages</span></div></div>
+            <div class="sk3-card reveal reveal-delay-3" data-cat="tools" data-color="#10b981" data-pct="70"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🗄️</span><span class="sk3-name">MySQL</span><span class="sk3-pct">70%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#10b981" data-pct="70"></div></div><div class="sk3-pills"><span>Queries</span><span>Schema</span><span>Joins</span></div></div>
+            <div class="sk3-card reveal reveal-delay-4" data-cat="tools" data-color="#10b981" data-pct="65"><div class="sk3-card-glow"></div><div class="sk3-card-top"><span class="sk3-icon">🍃</span><span class="sk3-name">MongoDB</span><span class="sk3-pct">65%</span></div><div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#10b981" data-pct="65"></div></div><div class="sk3-pills"><span>NoSQL</span><span>Atlas</span><span>Aggregation</span></div></div>
+
+            <!-- ══════════════════════════════════════════════════
+                 SOFTWARE SKILLS  (new category)
+            ══════════════════════════════════════════════════ -->
+            <div class="sk3-card reveal reveal-delay-1" data-cat="software" data-color="#e85d9e" data-pct="75">
+              <div class="sk3-card-glow"></div>
+              <div class="sk3-card-top">
+                <span class="sk3-icon">☕</span>
+                <span class="sk3-name">Java</span>
+                <span class="sk3-pct">75%</span>
+              </div>
+              <div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#e85d9e" data-pct="75"></div></div>
+              <div class="sk3-pills"><span>OOP</span><span>Collections</span><span>Streams</span></div>
+            </div>
+
+            <div class="sk3-card reveal reveal-delay-2" data-cat="software" data-color="#e85d9e" data-pct="72">
+              <div class="sk3-card-glow"></div>
+              <div class="sk3-card-top">
+                <span class="sk3-icon">🧩</span>
+                <span class="sk3-name">DSA</span>
+                <span class="sk3-pct">72%</span>
+              </div>
+              <div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#e85d9e" data-pct="72"></div></div>
+              <div class="sk3-pills"><span>Arrays</span><span>Trees</span><span>Graphs</span><span>DP</span></div>
+            </div>
+
+            <div class="sk3-card reveal reveal-delay-3" data-cat="software" data-color="#e85d9e" data-pct="70">
+              <div class="sk3-card-glow"></div>
+              <div class="sk3-card-top">
+                <span class="sk3-icon">🖥️</span>
+                <span class="sk3-name">Operating Systems</span>
+                <span class="sk3-pct">70%</span>
+              </div>
+              <div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#e85d9e" data-pct="70"></div></div>
+              <div class="sk3-pills"><span>Processes</span><span>Memory</span><span>Scheduling</span><span>Deadlock</span></div>
+            </div>
+
+            <div class="sk3-card reveal reveal-delay-4" data-cat="software" data-color="#e85d9e" data-pct="68">
+              <div class="sk3-card-glow"></div>
+              <div class="sk3-card-top">
+                <span class="sk3-icon">🌐</span>
+                <span class="sk3-name">Computer Networks</span>
+                <span class="sk3-pct">68%</span>
+              </div>
+              <div class="sk3-bar-track"><div class="sk3-bar-fill" style="--c:#e85d9e" data-pct="68"></div></div>
+              <div class="sk3-pills"><span>TCP/IP</span><span>OSI Model</span><span>HTTP/S</span><span>DNS</span></div>
+            </div>
+            <!-- ══════════════════════════════════════════════════ -->
+
+          </div><!-- end sk3-grid -->
+        </div><!-- end sk3-right -->
+      </div><!-- end sk3-layout -->
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="projects-header">
+        <div>
+          <div class="section-label reveal">Selected Work</div>
+          <h2 class="section-title reveal"><span class="gradient-text">Projects</span></h2>
+        </div>
+        <a href="https://github.com/rnsharma77" target="_blank" class="btn-outline reveal"><i class="fa-brands fa-github"></i> View All</a>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-img"><img src="image/pic4.jpg" alt="Health Buddy" /><div class="project-img-overlay"></div><div class="project-badge">React</div></div>
+          <div class="project-body">
+            <h3>Health Buddy Personalised Reminder WebApp</h3>
+            <p>A smart wellness reminder app with personalised health alerts for medication, water intake, exercise, and sleep — building consistent daily habits through intelligent scheduling.</p>
+            <ul class="project-highlights">
+              <li><i class="fa-solid fa-check"></i> 5+ reminder types with time-based triggers</li>
+              <li><i class="fa-solid fa-check"></i> Persistent data via localStorage</li>
+              <li><i class="fa-solid fa-check"></i> Fully responsive — mobile &amp; desktop</li>
+            </ul>
+            <div class="project-footer">
+              <div class="project-techs"><span class="project-tech">React</span><span class="project-tech">JavaScript</span><span class="project-tech">CSS</span></div>
+              <a href="https://github.com/rnsharma77/Health-Buddy-Reminder-App-" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-img"><img src="image/pic5.jpg" alt="Search Engine" /><div class="project-img-overlay"></div><div class="project-badge">Vanilla JS</div></div>
+          <div class="project-body">
+            <h3>Search Engine</h3>
+            <p>A lightweight client-side search engine with real-time filtering and keyword highlighting, built to understand information retrieval fundamentals from scratch.</p>
+            <ul class="project-highlights">
+              <li><i class="fa-solid fa-check"></i> Real-time search with instant results</li>
+              <li><i class="fa-solid fa-check"></i> Keyword highlighting in results</li>
+              <li><i class="fa-solid fa-check"></i> Zero dependencies — pure HTML/CSS/JS</li>
+            </ul>
+            <div class="project-footer">
+              <div class="project-techs"><span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">JS</span></div>
+              <a href="https://github.com/rnsharma77/Internship_project1" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-img"><img src="image/pic6.jpg" alt="Contact Form" /><div class="project-img-overlay"></div><div class="project-badge">Web3Forms</div></div>
+          <div class="project-body">
+            <h3>Contact Form — HTML, CSS &amp; Web3Forms</h3>
+            <p>A production-ready contact form with full validation, honeypot spam protection, and serverless email delivery — no backend required.</p>
+            <ul class="project-highlights">
+              <li><i class="fa-solid fa-check"></i> Client-side validation with error states</li>
+              <li><i class="fa-solid fa-check"></i> Honeypot spam protection</li>
+              <li><i class="fa-solid fa-check"></i> Serverless email via Web3Forms API</li>
+            </ul>
+            <div class="project-footer">
+              <div class="project-techs"><span class="project-tech">HTML</span><span class="project-tech">CSS</span><span class="project-tech">Web3Forms</span></div>
+              <a href="https://github.com/rnsharma77/contact-me" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lightboxClose"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-prev"  id="lightboxPrev"><i class="fa-solid fa-chevron-left"></i></button>
+    <div class="lightbox-inner"><img id="lightboxImg" src="" alt="" /><div class="lightbox-caption" id="lightboxCaption"></div></div>
+    <button class="lightbox-next"  id="lightboxNext"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <section class="exp-section" id="experience">
+    <div class="container">
+      <div class="section-label reveal">Career</div>
+      <h2 class="section-title reveal">Internships &amp; <span class="gradient-text">Experience</span></h2>
+      <div class="exp-timeline">
+        <div class="exp-item reveal"><div class="exp-dot">🧠</div><div class="exp-content"><div class="exp-header"><div class="exp-company">EduNet Foundation</div><div class="exp-date">Nov–Dec 2024</div></div><div class="exp-role">AI: Transformative Learning with Tech Saksham</div><div class="exp-desc">Developed NLP-based chatbot during Tech Saksham internship, gaining hands-on experience with AI and natural language processing.</div></div></div>
+        <div class="exp-item reveal reveal-delay-1"><div class="exp-dot">💻</div><div class="exp-content"><div class="exp-header"><div class="exp-company">Motion Cut</div><div class="exp-date">Aug–Sep 2024</div></div><div class="exp-role">Frontend Web Development Intern</div><div class="exp-desc">Improved front-end performance and mobile responsiveness by 40%, delivering cleaner and faster user interfaces.</div></div></div>
+        <div class="exp-item reveal reveal-delay-2"><div class="exp-dot">🏛️</div><div class="exp-content"><div class="exp-header"><div class="exp-company">Chandigarh University</div><div class="exp-date">May–Jun 2024</div></div><div class="exp-role">Social Internship</div><div class="exp-desc">Observed Panchayat operations for a governance-focused project, gaining insight into civic systems and administration.</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-label reveal">Achievements</div>
+      <h2 class="section-title reveal"><span class="gradient-text">Certifications</span></h2>
+      <div class="certs-grid">
+        <a class="cert-card reveal" href="https://www.linkedin.com/feed/update/urn:li:activity:7342962500063109120/" target="_blank"><img src="image/Tata-Group.png" alt="Tata" class="cert-logo" /><div class="cert-name">GenAI Data Analytics</div><div class="cert-issuer">Tata Group</div><div class="cert-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div></a>
+        <a class="cert-card reveal reveal-delay-1" href="https://www.linkedin.com/feed/update/urn:li:activity:7329498408778375168/" target="_blank"><img src="image/Nptel-logo.png" alt="NPTEL" class="cert-logo" /><div class="cert-name">Intro to IoT</div><div class="cert-issuer">NPTEL — IIT Kanpur</div><div class="cert-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div></a>
+        <a class="cert-card reveal reveal-delay-2" href="https://www.linkedin.com/feed/update/urn:li:activity:7337135968690348034/" target="_blank"><img src="image/infosys1-logo.svg" alt="Infosys" class="cert-logo" /><div class="cert-name">Data Structures &amp; Algorithms</div><div class="cert-issuer">Infosys</div><div class="cert-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div></a>
+        <a class="cert-card reveal reveal-delay-3" href="https://www.coursera.org/account/accomplishments/verify/AS0JL7SZH8N9" target="_blank"><img src="image/L&T-logo.png" alt="L&T" class="cert-logo" /><div class="cert-name">Microcontroller</div><div class="cert-issuer">L&T EduNet</div><div class="cert-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div></a>
+        <a class="cert-card reveal reveal-delay-4" href="https://www.coursera.org/account/accomplishments/verify/ODCWNR0S28WM" target="_blank"><img src="image/IBM_logo.png" alt="IBM" class="cert-logo" /><div class="cert-name">Creative Thinking</div><div class="cert-issuer">IBM</div><div class="cert-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div></a>
+        <a class="cert-card reveal reveal-delay-5" href="https://www.linkedin.com/learning/certificates/9c8644cbe63eadf6ed3e9a7021034c99646c3be6181ff15ea57b7157fa002de3" target="_blank"><img src="image/microsoft-logo.png" alt="Microsoft" class="cert-logo" /><div class="cert-name">Data Analysis</div><div class="cert-issuer">Microsoft + LinkedIn</div><div class="cert-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div></a>
+        <a class="cert-card reveal" href="https://unstop.com/certificate-preview/62a504ba-b185-4397-90d9-0d5ed77fa3a2" target="_blank"><img src="image/Tata-Group.png" alt="Tata Quiz" class="cert-logo" /><div class="cert-name">Tata Crucible Quiz 2024</div><div class="cert-issuer">Tata Group</div><div class="cert-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="edu-section" id="education">
+    <div class="container">
+      <div class="section-label reveal">Background</div>
+      <h2 class="section-title reveal"><span class="gradient-text-2">Education</span></h2>
+      <div class="edu-grid">
+        <a class="edu-card reveal" href="https://www.cuchd.in/" target="_blank"><div class="edu-icon-box">🎓</div><div class="edu-info"><h3>B.E. in Computer Science Engineering</h3><div class="edu-school">Chandigarh University</div><div class="edu-year">2023 – 2027</div></div></a>
+        <a class="edu-card reveal reveal-delay-1" href="https://rkclnmu.ac.in/" target="_blank"><div class="edu-icon-box">🏫</div><div class="edu-info"><h3>Class XII — Science</h3><div class="edu-school">Ram Krishna College</div><div class="edu-year">2021 – 2023</div></div></a>
+        <a class="edu-card reveal reveal-delay-2" href="https://schools.org.in/madhubani/10052103406/rameshwar-h-s-rajnagar.html" target="_blank"><div class="edu-icon-box">📘</div><div class="edu-info"><h3>Class X — Secondary Education</h3><div class="edu-school">Rameshwar +2 High School</div><div class="edu-year">2020 – 2021</div></div></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="section-label reveal">Get In Touch</div>
+          <h2 class="section-title reveal">Let's <span class="gradient-text">Work Together</span></h2>
+          <p class="reveal">Currently seeking opportunities to grow and make an impact. Whether you have a project in mind or just want to connect — my inbox is always open.</p>
+          <div class="contact-info-item reveal"><div class="contact-info-icon"><i class="fa-brands fa-linkedin-in"></i></div><div class="contact-info-text">linkedin.com/in/rudra-narayan-sharma</div></div>
+          <div class="contact-info-item reveal"><div class="contact-info-icon"><i class="fa-brands fa-github"></i></div><div class="contact-info-text">github.com/rnsharma77</div></div>
+          <div class="contact-info-item reveal"><div class="contact-info-icon"><i class="fa-brands fa-instagram"></i></div><div class="contact-info-text">@rnsharma77</div></div>
+          <div class="socials reveal">
+            <a href="https://www.linkedin.com/in/rudra-narayan-sharma/" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/rnsharma77" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/rnsharma77/" target="_blank" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/rnsharma77/" target="_blank" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f4c926ba-d994-4e0b-b8d3-db33500c0ddc" />
+            <div class="form-group"><label class="form-label">Your Name</label><input type="text" name="name" class="form-input" placeholder="John Doe" required /></div>
+            <div class="form-group"><label class="form-label">Email Address</label><input type="email" name="email" class="form-input" placeholder="john@example.com" required /></div>
+            <div class="form-group"><label class="form-label">Message</label><textarea name="message" class="form-textarea" placeholder="Tell me about your project or opportunity..." required></textarea></div>
+            <button type="submit" class="form-submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-name gradient-text">Rudra Narayan Sharma</div>
+      <p class="footer-sub">Frontend Developer &amp; UI/UX Designer · Chandigarh University</p>
+      <p class="footer-copy">© 2026 Rudra Narayan Sharma. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

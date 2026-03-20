@@ -1,0 +1,26 @@
+Home: Explore Rudra Sharma's portfolio featuring React, Node.js, Java, UI/UX, and DSA projects built for recruiters, internships, and tech teams.
+About: Learn about Rudra Sharma, a Chandigarh University student developer from India focused on software engineering, frontend development, and problem solving.
+Skills: Discover Rudra Sharma's skills in HTML, CSS, JavaScript, React, Node.js, Express, Java, C++, DSA, UI/UX, Git, and Docker.
+Projects: View real portfolio projects in frontend, backend, Java, and UI/UX with practical solutions for modern web and software development.
+Experience: See internships, hands-on experience, and the development journey that shaped Rudra Sharma into a result-driven student engineer.
+Certifications: Review certifications in AI, IoT, DSA, data analysis, and creative problem solving that strengthen Rudra Sharma's technical profile.
+Education: Read about Rudra Sharma's academic background as a Computer Science Engineering student at Chandigarh University in India.
+Contact: Connect with Rudra Sharma for internships, freelance work, collaborations, and software development opportunities.
+Blog Ideas:
+1. Frontend Developer Roadmap for Students in India
+2. Best React Projects for a Full Stack Developer Portfolio
+3. How I Built a Responsive Portfolio Website with HTML, CSS and JavaScript
+4. Node.js and Express Project Ideas for Internship Portfolios
+5. Java and DSA Projects That Impress Recruiters
+6. UI UX Design Tips for Better Developer Portfolios
+7. Git and Docker Skills Every Student Developer Should Learn
+8. How to Prepare a Software Engineer Portfolio for Internships
+9. Operating Systems and Computer Networks Concepts Every Developer Should Know
+10. Full Stack Developer Skills to Learn in 2026
+GitHub Project Descriptions:
+Health Buddy Personalised Reminder WebApp: A React-based health reminder web app with smart scheduling, responsive UI, and practical frontend engineering for portfolio SEO.
+Search Engine: A lightweight JavaScript search engine project with real-time filtering and keyword highlighting, ideal for frontend developer portfolio visibility.
+Contact Form: A responsive HTML, CSS, and Web3Forms contact form with validation and spam protection for modern portfolio websites.
+Portfolio Website: A personal portfolio website built with HTML, CSS, and JavaScript showcasing frontend, backend, UI/UX, Java, and DSA skills.
+UI UX Case Study: A modern UI/UX design showcase focused on user-centered interfaces, wireframes, prototypes, and developer-friendly design systems.
+
