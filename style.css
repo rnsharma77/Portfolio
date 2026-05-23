@@ -207,6 +207,11 @@ nav.scrolled{background:rgba(8,12,16,.88);backdrop-filter:blur(24px);-webkit-bac
 .project-tech{font-size:.66rem;color:var(--text3);background:var(--surface2);padding:2px 7px;border-radius:4px}
 .project-link{display:flex;align-items:center;gap:6px;font-size:.78rem;font-weight:500;color:var(--accent);text-decoration:none;transition:gap .3s var(--ease)}
 .project-link:hover{gap:10px}
+/* Live button for projects (matches project-link) */
+.project-live{display:flex;align-items:center;gap:6px;font-size:.78rem;font-weight:500;color:var(--accent);text-decoration:none;transition:all .25s var(--ease)}
+.project-live:hover{opacity:.95;transform:translateY(-2px)}
+/* Make the project image wrapper clickable without breaking layout */
+.project-img-link{display:block;color:inherit;text-decoration:none}
 
 
 /* LIGHTBOX */
